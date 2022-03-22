@@ -12,8 +12,6 @@ namespace Ejercicio1
             int acumulador= 0;
             int contador = 0;
             float promedio;
-            bool flagMaximo= true;
-            bool flagMinimo= true;
 
             for (int i = 0; i < 5; i++) 
             {
@@ -23,15 +21,13 @@ namespace Ejercicio1
                 acumulador += numero;
                 contador++;
 
-                if (flagMaximo == true || numero > maximo) 
+                if (numero > maximo) 
                 {
                     maximo = numero;
-                    flagMaximo = false;
                 }
-                if (flagMinimo == true || numero < minimo) 
+                if (numero < minimo) 
                 {
                     minimo = numero;
-                    flagMinimo = false;
                 }
 
             }
