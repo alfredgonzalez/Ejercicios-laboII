@@ -7,8 +7,8 @@ namespace Ejercicio1
         static void Main(string[] args)
         {
             int numero;
-            int minimo = Int32.MinValue;
-            int maximo = Int32.MaxValue;
+            int minimo = Int32.MaxValue;
+            int maximo = Int32.MinValue;
             int acumulador= 0;
             int contador = 0;
             float promedio;
